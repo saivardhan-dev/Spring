@@ -116,4 +116,51 @@ application					One per ServletContext
 @Value							Inject values
 @Qualifier						Resolve ambiguity
 ```
+
+
+# SPRINGBOOT #
+Spring Boot = Spring + Auto-configuration + Embedded Server + Convention over Configuration
+
+In Spring boot, we write business logic. Spring handles: Object creation, Dependency wiring, Server setup, Request routing
+
+# 1. Create Your First Spring Boot Project 
+
+* Using Spring Initializr (Recommended)
   
+	Go to: https://start.spring.io
+
+```text
+	Fill the details:
+		•	Project: Maven
+		•	Language: Java
+		•	Spring Boot: Default (latest stable)
+		•	Group: com.example
+		•	Artifact: demo
+		•	Packaging: Jar
+		•	Java: 17 (or your installed version)
+	Dependencies:
+	Select:
+		• Spring Web
+	Click Generate → unzip → open in IntelliJ (We can Do all this in the IntelliJ itself as well)
+```
+
+# 2. Understand the Project Structure
+
+we'll see:
+```text
+src/main/java
+ └── com.example.demo
+      └── DemoApplication.java
+
+src/main/resources
+ ├── application.properties
+```
+Main
+```text
+@SpringBootApplication
+public class DemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+}
+```
