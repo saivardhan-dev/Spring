@@ -24,7 +24,7 @@ Spring FrameWork Architecture
 └── Test: Provides comprehensive testing support. (includes unit testing, Integration testing, Mocking support, Test context framework)
 
 ```
-# Core Container and Bean lifecycle #
+## Core Container and Bean lifecycle 
 - The Core Container manages everything about your objects so you don’t have to use new.
 - Provides IoC (Inversion of Control) and Dependency Injection
 - Handles object creation and wiring
@@ -123,7 +123,7 @@ Spring Boot = Spring + Auto-configuration + Embedded Server + Convention over Co
 
 In Spring boot, we write business logic. Spring handles: Object creation, Dependency wiring, Server setup, Request routing
 
-# 1. Create Your First Spring Boot Project 
+## 1. Create Your First Spring Boot Project 
 
 * Using Spring Initializr (Recommended)
   
@@ -144,7 +144,7 @@ In Spring boot, we write business logic. Spring handles: Object creation, Depend
 	Click Generate → unzip → open in IntelliJ (We can Do all this in the IntelliJ itself as well)
 ```
 
-# 2. Understand the Project Structure
+## 2. Understand the Project Structure
 
 we'll see:
 ```text
