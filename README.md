@@ -1,5 +1,5 @@
 # Spring Framework #
-- Spring Framework is a modular Java framework built around IoC and DI, providing infrastructure support for enterprise applications including web, data access, security, messaging, and testing.
+- Spring is a modular framework built around IoC and DI that provides enterprise infrastructure like web, data access, security, AOP, and testing. The Core Container manages beans and their lifecycle, enabling loose coupling, better testability, and cleaner architecture.
 - Spring was designed to solve common problems in enterprise Java:
 	1.	Reduce boilerplate code
 	2.	Promote loose coupling
@@ -87,3 +87,33 @@ Bean Ready to Use
    ↓
 Bean Destroyed
 ```
+
+*Bean Scope:*
+- By default, Spring beans are singleton-scoped.
+  
+  Common Bean Scopes:
+```text
+   Scope 					 	Meaning 
+singleton (default)			One instance per Spring container
+prototype					New instance every time
+request						One per HTTP request
+session						One per HTTP session
+application					One per ServletContext
+```
+
+  
+  Common Spring Annotations:
+```text
+   Annotation 					 	Purpose 
+@Component						Generic bean
+@Service						Business logic
+@Repository						DAO layer
+@Controller						MVC Controller
+@RestController					REST API
+@Autowired						DI
+@Bean							Bean creation
+@Configuration					Config class
+@Value							Inject values
+@Qualifier						Resolve ambiguity
+```
+  
