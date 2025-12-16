@@ -10,7 +10,7 @@
 - Dependency Injection (DI): Dependencies are injected at runtime instead of being hard-coded. (Types: Constructor Injection, Setter Injection, Field Injection)
 
 ```text
-
+Spring FrameWork Architecture
 ├── Core Container: The Spring container is responsible for instantiating, configuring, and bean management.
 │   ├── Beans: A Spring Bean is an object that is created, managed, and destroyed by the Spring container.(Created using @Component, @Service, @Repository, @Controller, @Bean)
 │   ├── Core: The core Container provides IoC Container, Bean management, Dependency Injection.
