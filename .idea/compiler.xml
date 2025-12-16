@@ -12,12 +12,14 @@
     <bytecodeTargetLevel>
       <module name="ArthOperApplication" target="17" />
       <module name="HelloSpring" target="17" />
+      <module name="Spring1" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ArthOperApplication" options="-parameters" />
       <module name="HelloSpring" options="-parameters" />
+      <module name="Spring1" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>

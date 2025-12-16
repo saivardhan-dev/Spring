@@ -38,3 +38,22 @@ public class HelloController {
         return response;
     }
 }
+
+@RestController
+class Student{
+    @GetMapping("/student")
+    public Map<String, Object> student(@RequestParam String name, @RequestParam int age) {
+        Map<String, Object> response = new LinkedHashMap<>();
+
+        response.put("name", name);
+
+        if(age>0) {
+            response.put("age", age);
+        }
+        else{
+            response.put("age", "Error: Invalid age(Age>0)");
+        }
+
+        return response;
+    }
+}

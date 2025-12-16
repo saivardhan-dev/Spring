@@ -7,11 +7,13 @@
         <option value="$PROJECT_DIR$/HelloSpring/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/Sum/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/HelloSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring1/pom.xml" />
       </set>
     </option>
   </component>
