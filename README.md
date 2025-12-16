@@ -52,6 +52,7 @@ Examples:
 	•	ApplicationContextAware
 ```
 4.BeanPostProcessor (Before Init): Allows modification before initialization.
+
 5.Initialization: Bean is initialized.
 Ways to define:
 ```text
@@ -61,7 +62,9 @@ or
 @Bean(initMethod = "init")
 ```
 6.BeanPostProcessor (After Init): Final chance to modify the bean.
+
 7.Bean Ready for Use: Bean is fully initialized and ready.
+
 8.Destruction: Executed when application shuts down.
 Ways to define:
 ```text
